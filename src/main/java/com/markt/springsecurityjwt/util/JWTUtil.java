@@ -17,7 +17,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 @Service
 public class JWTUtil {
 	
-	private static final String secretKey = "secret";
+	private static final String secretKey = "Omga87LJH347HNSUC!09KJ";
 	
 	public String generateToken(UserDetails userDetails) {
 		Map<String, Object> claims = new HashMap<>();
